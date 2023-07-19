@@ -1,2 +1,4 @@
-var userName= prompt("Give me username")
-alert("The user name is: "+userName)
+var button= document.querySelector("#btn-click");
+button.addEventListener("click", function clickEventHandler(){
+    console.log("clicked!");
+})
