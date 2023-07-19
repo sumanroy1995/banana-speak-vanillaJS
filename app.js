@@ -1,4 +1,7 @@
 var button= document.querySelector("#btn-click");
-button.addEventListener("click", function clickEventHandler(){
-    console.log("clicked!");
-})
+function clickEventHandler(){
+    console.log("Clicked!");
+};
+button.addEventListener("click", clickEventHandler); //callback to the function clickEventHandler
+
+
