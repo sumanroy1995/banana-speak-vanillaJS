@@ -1,0 +1,19 @@
+:root{
+    --gray: #94a3b8;
+}
+textarea{
+   width: 50%;
+   height: 15vh;
+   padding: 0.3rem 0.3rem; 
+}
+
+::placeholder{
+    color: var(--gray);
+    height: 90%;
+    font-size:large;
+    font-weight: bold;
+}
+button{
+    margin:0.6rem 0rem ;
+    padding: 0.5rem;
+}
