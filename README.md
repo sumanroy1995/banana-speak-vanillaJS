@@ -8,14 +8,19 @@ EventListener basically catches those events made by users like touching, clicki
 
 What will be the query you would write for each one below? Select the first…
 
-textarea tag
-element with a class btn-primary
-element with an id input-btn
-input element with an attribute name=‘translator’
+1. textarea tag
+2. element with a class btn-primary
+3. element with an id input-btn
+4. input element with an attribute name=‘translator’
 
 ans: 
 
 document.querySelector("input");
 document.querySelector(".btn-primary");
 document.querySelector("#input-btn");
-document.querySelector("input[name='translator']")
+document.querySelector("input[name='translator']");
+
+Wire a div to show output
+1. create an output div
+2. references it in JS
+3. use innerText to rewrite this div dynamically to show the output
