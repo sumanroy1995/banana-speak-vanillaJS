@@ -23,3 +23,10 @@ button{
     display: block;
     margin: auto;
 }
+#output{
+    border: 1px solid black;
+    width: 334px;
+    height: 137px;
+    padding: 0.3rem 0.3rem; 
+    margin: auto;
+}
